@@ -2,6 +2,6 @@ import React from 'react';
 
 export const App = () => {
   return (
-    <h1>PizzaStack</h1>
+    <h1 className='text-3xl font-bold underline text-red-500'>PizzaStack</h1>
   );
 }
