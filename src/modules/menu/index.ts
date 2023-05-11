@@ -1,0 +1,1 @@
+export { MenuList as Menu } from "./components/menu-list/menu-list.component";

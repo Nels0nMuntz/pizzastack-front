@@ -9,7 +9,7 @@ interface MenuListProps {
 
 export const MenuList: React.FC<MenuListProps> = ({ items }) => {
   return (
-    <div className="flex flex-wrap gap-10">
+    <div className="flex flex-wrap justify-center gap-10">
       {items.map(({ image, ...rest }) => (
         <MenuItem {...rest} imagePath={img} key={rest.id}/>
       ))}
